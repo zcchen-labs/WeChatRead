@@ -1,6 +1,6 @@
 # 微信读书客户端
 
-[下载](https://github.com/gaohanghang/WeChatRead/releases)
+[下载 Apple 芯片版](https://github.com/zcchen-labs/WeChatRead/releases)
 
 ![](img/1.png)
 
@@ -76,7 +76,7 @@ node_modules/.bin/electron-builder -w nsis
 
 # Mac打包成dmg文件
 # 在Mac环境下执行
-node_modules/.bin/electron-builder -m dmg
+npm run dist:mac:arm64
 
 ```
 
